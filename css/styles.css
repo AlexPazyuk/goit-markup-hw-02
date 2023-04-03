@@ -52,15 +52,18 @@ color: var(--headings-color)
 
 a.nav-link:hover, 
 a.nav-link:focus,
-.address-link:hover,
-.address-link:focus{
+.address-hover:hover,
+.address-hover:focus{
     color: var(--hover-color);
 }
 
 .address-link{
 text-decoration: none;
 font-style: normal;
-font-size: 16px;
+
+}
+.address-hover{
+    font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--body-text);
