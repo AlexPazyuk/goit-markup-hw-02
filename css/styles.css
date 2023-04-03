@@ -98,7 +98,8 @@ font-family: "Roboto", sans-serif
 }
 /* Features */
 .team-title,
-.project-title{
+.project-title,
+.features-title{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -133,7 +134,8 @@ color: var(--headings-color)
 }
 
 .filter{
-        font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         align-items: center;
